@@ -1,4 +1,4 @@
-#Starbot Version 03.11.21
+#Mainbot Version 03.11.21
 import discord
 import os
 import json
