@@ -26,7 +26,7 @@ class Chat(commands.Cog):
 			trigger = message.content.lower()
 			if message.author == self.client.user:
 				pass
-			if trigger.startswith('starbot'):
+			if trigger.startswith('chat'):
 				response = chatbot.request(message.content)
 				await message.channel.send(response)
 #Setup Function
