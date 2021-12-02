@@ -21,8 +21,8 @@ class Chat(commands.Cog):
 	#Chat Event
 	@commands.Cog.listener()
 	async def on_message(self, message):
-		testserver   = self.client.get_guild(767432419346743329)
-		if message.channel.id == 909446719098454066:
+		testserver   = self.client.get_guild(##################)
+		if message.channel.id == ##################:
 			trigger = message.content.lower()
 			if message.author == self.client.user:
 				pass
