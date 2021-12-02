@@ -21,10 +21,10 @@ class Utility(commands.Cog):
 		global sandlandid    
 		global yellowstoneid  
 		global testserverid   
-		allowedUsers = [505498222534328358]
-		sandland     = self.client.get_guild(662755798568665089)
-		yellowstone  = self.client.get_guild(890767427892281445)
-		testserver   = self.client.get_guild(767432419346743329)
+		allowedUsers = [##################]
+		sandland     = self.client.get_guild(##################)
+		yellowstone  = self.client.get_guild(##################)
+		testserver   = self.client.get_guild(##################)
 		#Collect Users
 		usernamelist = []
 		useridlist = []
@@ -39,7 +39,7 @@ class Utility(commands.Cog):
 	#Message Event
 	@commands.Cog.listener()
 	async def on_message(self, message):
-		testserver   = self.client.get_guild(767432419346743329)		
+		testserver   = self.client.get_guild(##################)		
 		#Self Avatar 
 		if message.content == ';avatar':
 			show_avatar = discord.Embed(title= f'Avatar for {message.author.name}', color = discord.Color.dark_blue())
@@ -158,11 +158,11 @@ class Utility(commands.Cog):
 			await ctx.send("**Noob**. You can't use this command. <:smugqua:705951060656652340>")
 	#Archive Command
 	@commands.command()
-	async def archive(self, ctx, userid = 737749343334826054):
+	async def archive(self, ctx, userid = ##################):
 		#If Reply 
 		if ctx.message.reference and ctx.author.id in allowedUsers:
 			user = self.client.get_user(int(userid))
-			spitchannel = self.client.get_channel(903350231389847572)
+			spitchannel = self.client.get_channel(##################)
 			referredmessageid = ctx.message.reference.message_id
 			referredmessage = await ctx.message.channel.fetch_message(referredmessageid)
 			#If Image
