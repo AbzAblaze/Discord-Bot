@@ -9,7 +9,7 @@ Avatar Command: Gives a downloadable link to user's avatar.
 
 Colour Command: Assign the user a role colour. State colour using hex code.
 
-![](screenshots/archive.png)
+![](screenshots/archive1.png)
 
 Archive Command: Copies the references image to a specified channel for archive purposes. 
 
