@@ -1,16 +1,14 @@
 # Discord-Bot
-A Discord bot designed with numerous utilities and features. Some of them include:
-
-![](screenshots/avatar.png)
-
-Avatar Command: Gives a downloadable link to user's avatar.
-
-![](screenshots/colour.png)
+A Discord bot designed with numerous utilities and features.
 
 Colour Command: Assign the user a role colour. State colour using hex code.
+![](screenshots/colour.png)
 
-![](screenshots/archive1.png)
+Weather Command: Uses OpenWeather API to fetch the weather data for an inputted city.
+![](screenshots/weather.png)
 
-Archive Command: Copies the references image to a specified channel for archive purposes. 
+Chat Command: An AI Chatbot features that lets you talk to the bot.
+![](screenshots/chatbot.png)
 
-
+Economy: An extension that stores economy game data with PostgreSQL.
+![](screenshots/chatbot.png)
