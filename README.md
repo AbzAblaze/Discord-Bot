@@ -15,4 +15,4 @@ A Discord bot designed with numerous utilities and features.
 
 **Economy:** An extension that stores economy game data with PostgreSQL.
 
-![](screenshots/chatbot.png)
+![](screenshots/economy.png)
